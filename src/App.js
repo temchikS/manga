@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<MangaReader />} />
-        <Route path="/manga/:id" element={<MangaDetails />} />
+        <Route path="/manga/:title/:id" element={<MangaDetails />} />
       </Routes>
     </>
   );

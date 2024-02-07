@@ -48,7 +48,7 @@ const MangaReader = () => {
       <ul>
         {mangaList.map((manga) => (
           <li key={manga.id}>
-            <Link to={`/manga/${manga.id}`}>
+            <Link to={`/manga/${manga.title.romaji.replace(/\s+/g, '-')}/${manga.id}`}>
               <img src={manga.coverImage.large} alt={manga.title.romaji} />
             </Link>
             <p>{manga.title.romaji}</p>
