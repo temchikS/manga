@@ -1,0 +1,29 @@
+.header {
+    background-color: #fffb00;
+    color: #020202;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+.header_logo {
+    transition: opacity.2s ease;
+    
+}
+
+image {
+  border-style: none;
+}
+
+.header_item {
+  display: flex;
+  margin-right: 40px;
+  
+}
+.header_button {
+  display: flex;
+  margin: 25px;
+  position: relative;
+  left: 300px;
+}

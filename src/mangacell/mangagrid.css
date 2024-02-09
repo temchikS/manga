@@ -1,0 +1,21 @@
+.manga-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .manga-cell {
+    width: 200px; /* Ширина ячейки */
+    border: 2px solid #333; /* Обводка */
+    border-radius: 10px; /* Применяет одинаковое скругление ко всем углам */
+    margin-top: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Отступ между ячейками */
+  }
+  
+  .manga-cell img {
+    width: 100%;
+    height: auto;
+  }
+  
