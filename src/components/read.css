@@ -1,0 +1,9 @@
+.read_window{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.read_window img{
+    max-width: 100%;
+}
