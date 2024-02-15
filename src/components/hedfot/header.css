@@ -1,0 +1,27 @@
+.header {
+    background-color: #fffb00;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.header_logo {
+    transition: opacity.2s ease;
+    position: absolute;
+    left: 5px;
+}
+
+image {
+  border-style: none;
+}
+
+
+.header_buttons {
+  display: flex;
+  position: relative;
+  gap: 40px;
+}

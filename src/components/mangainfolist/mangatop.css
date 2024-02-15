@@ -1,0 +1,32 @@
+.manga-info-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  overflow-x: auto; /* Добавляем горизонтальную прокрутку */
+}
+
+.manga-list {
+  display: inline-flex; /* Используем inline-flex чтобы манги были в одной строке */
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.manga-item{
+  width: 200px;
+  height: 382px;
+  /* border: 2px solid #333; */
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  overflow: hidden;
+  list-style-type: none;
+}
+.manga-item p{
+  margin: 10px;
+}
+.manga-item img {
+  width: 100%;
+  /* height: auto; */
+}
+
+
+  
