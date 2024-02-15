@@ -1,3 +1,5 @@
+скачай это:
+npm install react-router-dom
 
 py -m venv venv
 
